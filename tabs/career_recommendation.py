@@ -14,6 +14,6 @@ def render_career_recommendation(expert_system):
         
         for job, score in recommendations:
             with st.expander(f"{job} - Nilai Kecocokan: {score:.1f}%"):
-                st.write(expert_system.rules[job])
+                st.text(expert_system.rules[job])
     else:
         st.warning("Silakan lengkapi profil Anda terlebih dahulu untuk mendapatkan rekomendasi karir.")
