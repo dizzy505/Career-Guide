@@ -8,6 +8,7 @@ CareerGuide.id is a rule-based expert system that recommends career paths based 
 - Backward Chaining
 
 📋 How to Run
+
 git clone https://github.com/dizzy505/Career-Guide.git
 cd Career-Guide
 pip install -r requirements.txt
