@@ -23,7 +23,7 @@ def main():
         </style>
         """, unsafe_allow_html=True)
 
-    st.title("🎯 CareerGuide.id")
+    st.title("CareerGuide.id")
     st.markdown("---")
 
     expert_system = CareerExpertSystem()
